@@ -1,1 +1,2 @@
-# soft_tech_2018
+# Exercise projects
+@HaddWik
