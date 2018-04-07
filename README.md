@@ -3,4 +3,10 @@
 
 This is **HaddWik's** homework repo.
 Here I will upload all my homework during my study in SoftUni Bulgaria.
-> Software Technologies Course March 2018
+
+*Tech Module:*
+> Software Technologies - March 2018
+> Programing Fundamentals - January 2018
+
+*Programing Basics:*
+> Programing Basics with Java - October 2017
