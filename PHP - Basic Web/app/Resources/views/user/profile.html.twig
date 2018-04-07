@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'profile' %}
+
+{% block main %}
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>
+                        <img src="{{ asset('img/info.png') }}" alt="User Information" height="42" width="42">
+                        User Information
+                    </legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Email:</label>
+                        <div class="col-sm-4 ">
+                            <div class="form-control">{{ user.email }}</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Full Name:</label>
+                        <div class="col-sm-4 ">
+                            <div class="form-control">{{ user.fullName }}</div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}
